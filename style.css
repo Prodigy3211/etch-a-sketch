@@ -1,0 +1,12 @@
+.parentDiv{
+    display: flex;
+    border: solid 15px green;
+}
+.gridSection{
+    display: flex;
+    flex-flow: row wrap;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border: solid 2px blue;
+}
