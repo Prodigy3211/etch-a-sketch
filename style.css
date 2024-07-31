@@ -4,17 +4,20 @@
     flex-flow: row wrap;
     margin: 0px 250px 250px 150px;
     width: 700px;
-    height: 450px;
-    padding: 10px;
-    justify-content: space-around;
+    height: 500px;
+    /* padding: 10px; */
+    justify-content: center;
 }
 .gridSection{
     /* display: flex; */
     align-content: center;
     text-align: center;
-    /* width: 150px;
-    height: 150px;
-    margin: 16px; */
+    margin: 1px;
+    font-size: 1px;
+    height: auto;
+    width: 50px;
+    padding: 16px;
     background-color: yellow;
     border: solid 2px blue;
+    flex-grow: 1;
 }

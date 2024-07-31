@@ -28,7 +28,7 @@ function divCreater(){
         div.setAttribute('id', divvy[i]);
         div.setAttribute('class', gridSection)
         div.addEventListener('mouseenter', event =>{
-            div.style.backgroundColor = 'orange';
+            div.style.backgroundColor = 'tomato';
         })
         div.textContent = divvy[i];
         document.body.appendChild(div);
