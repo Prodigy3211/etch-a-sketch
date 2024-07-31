@@ -3,14 +3,18 @@
     border: solid 15px green;
     flex-flow: row wrap;
     margin: 0px 250px 250px 150px;
-    padding: 0px;
+    width: 700px;
+    height: 450px;
+    padding: 10px;
+    justify-content: space-around;
 }
 .gridSection{
     /* display: flex; */
     align-content: center;
     text-align: center;
-    width: 125px;
-    height: 125px;
+    /* width: 150px;
+    height: 150px;
+    margin: 16px; */
     background-color: yellow;
     border: solid 2px blue;
 }
