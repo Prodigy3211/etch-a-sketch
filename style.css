@@ -1,23 +1,24 @@
 .parentDiv{
     display: flex;
     border: solid 15px green;
-    flex-flow: row wrap;
-    margin: 0px 250px 250px 150px;
-    width: 700px;
+    flex-flow: column wrap;
+    margin: auto;
+    width: auto;
     height: 500px;
     /* padding: 10px; */
-    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    /* column-gap: 8px; */
 }
 .gridSection{
-    /* display: flex; */
-    align-content: center;
-    text-align: center;
-    margin: 1px;
-    font-size: 1px;
-    height: auto;
+       text-align: center;
+    /* margin: 50px; */
+    font-size: 2rem;
+    height: 50px;
     width: 50px;
-    padding: 16px;
+    padding:25px;
     background-color: yellow;
     border: solid 2px blue;
     flex-grow: 1;
+    /* gap: 16px; */
 }
