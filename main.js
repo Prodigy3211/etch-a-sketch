@@ -15,13 +15,19 @@
 // console.log(griddy.innerHTML);
 
 function divCreater(){
-   let divvy = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,
-    23,24,25,26,27,28,29,30,31,32
+//Create an Array that stores all the Divs
+    let divvy = [
    ];
+    for(i=0; i< 257; i++ ){
+       divvy.push(i); 
+    }
+//Create a Parent Div to hold all of the "pixels"
    let parentDiv = document.createElement('div');
    let parentDivClass = "parentDiv";
    document.body.appendChild(parentDiv);
    parentDiv.setAttribute('class',parentDivClass);
+
+//Connect the grid divs to the gridSection Class
    let gridSection = "gridSection";
     for (i=0; i < divvy.length; i++ ){
         let div = document.createElement('div');
@@ -32,6 +38,7 @@ function divCreater(){
         })
         div.textContent = divvy[i];
         document.body.appendChild(div);
+//attach the grid divs to the Parent Div
         parentDiv.appendChild(div);
     }
 }

@@ -1,10 +1,10 @@
 .parentDiv{
     display: flex;
     border: solid 15px green;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     margin: auto;
-    width: auto;
-    height: 500px;
+    /* max-width: 950px; */
+    height: auto;
     /* padding: 10px; */
     /* align-items: center; */
     align-content: center;
@@ -14,11 +14,11 @@
        text-align: center;
     /* margin: 50px; */
     font-size: 2rem;
-    height: 50px;
-    width: 50px;
-    padding:25px;
+    height: auto;
+    width: auto;
+    /* padding:8px; */
     background-color: yellow;
     border: solid 2px blue;
-    flex-grow: 1;
+    flex: 1 1 0px;
     /* gap: 16px; */
 }
