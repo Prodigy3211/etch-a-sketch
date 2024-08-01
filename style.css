@@ -1,6 +1,9 @@
+h1{
+    text-align: center;
+}
 .parentDiv{
     display: flex;
-    border: solid 15px green;
+    border: solid 3px darkred;
     flex-flow: row wrap;
     margin: auto;
     /* max-width: 950px; */
@@ -12,13 +15,14 @@
 }
 .gridSection{
        text-align: center;
+       /* color: #302b31; */
     /* margin: 50px; */
     font-size: 2rem;
-    height: auto;
-    width: auto;
-    /* padding:8px; */
-    background-color: yellow;
-    border: solid 2px blue;
+    /* height: 16px;
+    width: 16px; */
+    /* padding:; */
+    /* background-color: yellow; */
+    /* border: solid 2px blue; */
     flex: 1 1 0px;
     /* gap: 16px; */
 }
